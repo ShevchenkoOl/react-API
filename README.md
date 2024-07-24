@@ -8,7 +8,7 @@ This project was created for the purpose of practicing using Hooks (```useState`
 
 ## How to Use the Repository
 
-1. Clone the repository: `https://github.com/ShevchenkoOl/react-API.git`
+1. Clone the repository: `https://github.com/ShevchenkoOl/react-search-images.git`
 
 2. use ```npm install``` command to install package dependencies
 
