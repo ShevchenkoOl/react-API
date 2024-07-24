@@ -1,0 +1,60 @@
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .Modal {
+    background: rgb(197, 231, 243);
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 80%; /* Устанавливаем ширину */
+    height: 80%; /* Устанавливаем высоту */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Убираем прокрутку */
+  }
+  
+  .imageContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .img {
+    max-width: 100%;
+    max-height: 80%; /* Ограничиваем высоту изображения */
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .closeIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 3rem; /* Увеличиваем размер иконки в три раза */
+    cursor: pointer;
+    color: #fff; /* Цвет иконки */
+  }
+  
+  .info {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+  }
+  
