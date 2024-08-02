@@ -2,9 +2,10 @@
 This project was created for the purpose of practicing using Hooks (```useState```, ```useEffect```). It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and has been added the spinner from the [React Spinners](https://mhnpd.github.io/react-loader-spinner/) library.
 1. The [axios](https://axios-http.com/) library is used for HTTP requests;
 2. The async/await syntax is used;
-3. The [notiflix](https://github.com/notiflix/Notiflix#readme) library is used for notifications;
+3. The [React-toastify](https://www.npmjs.com/package/react-toastify) library is used for notifications;
 4. Use the public API of the [Pixabay](https://pixabay.com/api/docs/) service as a backend;
-5. The project also uses pagination.
+5. The [simplelightbox](https://www.npmjs.com/package/simplelightbox) library is used to view images;
+6. The project also uses pagination.
 
 ## How to Use the Repository
 
